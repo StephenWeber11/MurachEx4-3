@@ -19,6 +19,7 @@ body{
 
 .workspace{
     max-width: 1200px;
+    height: 800px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
@@ -38,12 +39,19 @@ body{
     height: 50px;
 }
 
-.name{
+.header h1{
     float: left;
     margin-top: auto;
     padding-top: 19px;
-    color: lightseagreen;
-    margin-left: 345px;
+    color: azure;
+    margin-left: 350px;
+}
+
+.header a{
+    float: left;
+    padding-top: 34px;
+    color: azure;
+    margin-left: 40px;
 }
 
 .main-nav{
@@ -57,10 +65,6 @@ body{
     float: right;
 }
 
-.education{
-/*    font-weight: bold;*/
-}
-
 .education h2{
     margin-top: 60px;
     text-decoration: underline;
@@ -70,8 +74,8 @@ body{
     text-decoration: underline;
 }
 
-.courses{
-    
+.projects h2{
+    text-decoration: underline;
 }
 
 .courses h2{
