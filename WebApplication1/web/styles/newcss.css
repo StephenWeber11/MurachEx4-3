@@ -10,17 +10,17 @@ and open the template in the editor.
 
 .wrapper{
     max-width: 1180px;
-    background-color: black;
+/*    background-color: black;*/
 }
 
 .workspace{
-    max-width: 590px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
     font-family: arial, verdana;
-    background-color: #42f4bc;
+/*    background-color: #42f4bc;*/
 }
 
 .header{
@@ -49,19 +49,31 @@ and open the template in the editor.
     padding: 0px;
 }
 
-.school{
-    font-weight: bold;
-}
-
 .date{
     float: right;
 }
 
 .education{
+/*    font-weight: bold;*/
+}
+
+.education h2{
     margin-top: 60px;
     text-decoration: underline;
 }
 
-.experience{
+.experience h2{
     text-decoration: underline;
+}
+
+.courses{
+    
+}
+
+.courses h2{
+    text-decoration: underline;
+}
+
+.courses ul,li{
+    
 }
