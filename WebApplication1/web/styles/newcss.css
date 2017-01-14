@@ -8,19 +8,23 @@ and open the template in the editor.
     Author     : Stephen
 */
 
+body{
+    background-image: url("../images/04 - ofF8WML.jpg");
+}
+
 .wrapper{
-    max-width: 1180px;
+    width: 100%;
 /*    background-color: black;*/
 }
 
 .workspace{
-    max-width: 600px;
+    max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 10px;
     padding-right: 10px;
     font-family: arial, verdana;
-/*    background-color: #42f4bc;*/
+    background-color: white;
 }
 
 .header{
